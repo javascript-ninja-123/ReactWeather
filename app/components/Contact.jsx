@@ -2,7 +2,11 @@ var React = require('react');
 
 var Contact = (props) =>{
   return(
-      <h3>Contact Component!</h3>
+      <div>
+            <h3>Contact Component!</h3>
+            <p>Welcome to examples page!</p>
+      </div>
+
   )
 }
 

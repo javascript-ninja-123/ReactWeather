@@ -6,6 +6,9 @@ var Weather = require('Weather');
 var About = require('About');
 var Contact = require('Contact');
 
+//Load foundations-sites
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
 
 // var Route  = require('react-router').Route;
 

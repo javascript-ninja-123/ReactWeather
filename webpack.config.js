@@ -4,6 +4,7 @@ module.exports ={
   entry: [
 'script!jquery/dist/jquery.min.js',
 'script!foundation-sites/dist/foundation.min.js',
+'script!bootstrap/dist/js/bootstrap.min.js',
 './app/app.jsx'
   ],
   externals:{
@@ -31,7 +32,8 @@ module.exports ={
       WeatherForm:'app/components/WeatherForm.jsx',
       WeatherMessage:'app/components/WeatherMessage.jsx',
       openWeatherMap:'app/api/openWeatherMap.jsx',
-      Practice:'app/components/Practice.jsx'
+      Practice:'app/components/Practice.jsx',
+      WeatherNav:'app/components/WeatherNav.jsx'
 
     },
     extensions: ['','.js','.jsx']

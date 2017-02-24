@@ -8,6 +8,7 @@ var Contact = require('Contact');
 
 //Load foundations-sites
 require('style!css!foundation-sites/dist/foundation.min.css')
+// require('style!css!bootstrap/dist/css/bootstrap.min.css')
 $(document).foundation();
 
 // var Route  = require('react-router').Route;

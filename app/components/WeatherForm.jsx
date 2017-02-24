@@ -36,7 +36,7 @@ render(){
         <div>
           <form onSubmit={this.fetchWeather}>
             <input type="text" ref='location'/>
-            <button>Get Weather</button>
+            <button className="button expanded hollow">Get Weather</button>
           </form>
         </div>
   )
